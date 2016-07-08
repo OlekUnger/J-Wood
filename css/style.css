@@ -91,6 +91,16 @@ section {
     width: 360px;
   }
 }
+@media (max-width: 498px) {
+  .page-header .header-logo {
+    width: 320px;
+  }
+}
+@media (max-width: 445px) {
+  .page-header .header-logo {
+    width: 280px;
+  }
+}
 .page-header .header-title {
   margin-top: 40px;
   margin-bottom: 108px;
@@ -101,6 +111,32 @@ section {
     margin-bottom: 70px;
   }
 }
+@media (max-width: 768px) {
+  .page-header .header-title {
+    font-size: 5rem;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 630px) {
+  .page-header .header-title {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 498px) {
+  .page-header .header-title {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 445px) {
+  .page-header .header-title {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 385px) {
+  .page-header .header-title {
+    font-size: 2.5rem;
+  }
+}
 .page-header span {
   font-family: NexaBold;
 }
@@ -109,6 +145,11 @@ section {
 }
 .header .header-nav {
   padding: 28px 1.5%;
+}
+@media (max-width: 600px) {
+  .header .header-nav {
+    padding: 20px 1.5%;
+  }
 }
 .header-list {
   margin: 0;
@@ -141,6 +182,17 @@ section {
       -ms-transform: scale(1);
           transform: scale(1);
   cursor: default;
+}
+@media (max-width: 670px) {
+  .header-link {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .header-link {
+    font-size: 1.7rem;
+  }
 }
 .scroll-down {
   position: relative;
@@ -369,6 +421,12 @@ section {
   letter-spacing: 1px;
   font: 3rem/4rem NexaBold;
 }
+@media (max-width: 685px) {
+  .footer .contacts p {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+}
 .footer .mail a {
   display: block;
   color: inherit;
@@ -384,10 +442,50 @@ section {
     font: 4.5rem/6rem NexaLight;
   }
 }
+@media (max-width: 720px) {
+  .footer .mail a {
+    font: 4rem/5.5rem NexaLight;
+  }
+}
+@media (max-width: 685px) {
+  .footer .mail a {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+}
+@media (max-width: 595px) {
+  .footer .mail a {
+    font-size: 3rem;
+    line-height: 4.7rem;
+  }
+}
+@media (max-width: 540px) {
+  .footer .mail a {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+}
 .footer .phone span {
   display: block;
   letter-spacing: 6px;
   font: 4.8rem/7rem NexaLight;
+}
+@media (max-width: 720px) {
+  .footer .phone span {
+    font: 4rem/5.5rem NexaLight;
+  }
+}
+@media (max-width: 685px) {
+  .footer .phone span {
+    font-size: 3rem;
+    line-height: 4.3rem;
+  }
+}
+@media (max-width: 540px) {
+  .footer .phone span {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
 }
 .footer .media {
   margin-bottom: 230px;
@@ -395,6 +493,11 @@ section {
 @media (max-width: 768px) {
   .footer .media {
     margin-bottom: 150px;
+  }
+}
+@media (max-width: 685px) {
+  .footer .media {
+    margin-bottom: 100px;
   }
 }
 .footer .social {

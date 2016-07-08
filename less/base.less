@@ -103,7 +103,9 @@ section{text-align: center;}
         margin-right: auto;
         margin-left: auto;
 
-        @media (max-width: 768px) {width: 360px;}   
+        @media (max-width: 768px) {width: 360px;}
+        @media (max-width: 498px) {width: 320px;}
+        @media (max-width: 445px) {width: 280px}    
     }
     
     .header-title {
@@ -113,7 +115,21 @@ section{text-align: center;}
 
         @media (max-width: 992px) {
             margin-bottom: 70px;
-        }    
+        }
+        @media (max-width: 768px){
+            font-size: 5rem;
+            margin-bottom: 50px;
+        }
+        @media (max-width: 630px){
+            font-size: 4rem;
+        }
+        @media (max-width: 498px) {
+            font-size: 3.5rem;
+        }
+        @media(max-width: 445px){
+            font-size: 3rem;
+        }
+        @media(max-width: 385px){font-size: 2.5rem;}    
     }
 
     span {font-family: NexaBold;} 
@@ -124,7 +140,11 @@ section{text-align: center;}
 
 .header {
     
-    .header-nav {padding: 28px 1.5%;}
+    .header-nav {
+        padding: 28px 1.5%;
+        @media(max-width: 600px){padding: 20px 1.5%}    
+    }
+    
     
     &-list {
         margin: 0;
@@ -150,6 +170,14 @@ section{text-align: center;}
             color: red;
             transform: scale(1);
             cursor: default;
+
+        }
+        @media(max-width: 670px){
+          font-size: 2rem;
+          line-height: 3.5rem;  
+        }
+        @media(max-width: 600px){
+            font-size: 1.7rem;
         }
     }       
 }       
@@ -354,7 +382,14 @@ section{text-align: center;}
         p {
             letter-spacing: 1px;
             font: 3rem/4rem NexaBold;
+            @media (max-width: 685px) {
+                margin-bottom: 10px;
+                font-size: 2.5rem;
+
+            }
         }
+
+
     }
 
     .mail a{
@@ -368,18 +403,42 @@ section{text-align: center;}
         &:hover{text-decoration: underline;}
 
         @media (max-width: 768px) {font: 4.5rem/6rem NexaLight;}
+        @media (max-width: 720px) {font: 4rem/5.5rem NexaLight;}
+        @media (max-width: 685px) {
+            font-size: 3.5rem;
+            line-height: 4.5rem;
+        }
+        @media (max-width: 595px) {
+            font-size: 3rem;
+            line-height: 4.7rem;
+        }
+        @media (max-width: 540px) {
+            font-size: 2.5rem;
+            line-height: 4rem;
+        }
     }
 
     .phone span {
         display: block;
         letter-spacing: 6px;
         font: 4.8rem/7rem NexaLight;
+        @media (max-width: 720px) {font: 4rem/5.5rem NexaLight;}
+        @media (max-width: 685px) {
+            font-size: 3rem;
+            line-height: 4.3rem;
+        }
+        @media (max-width: 540px) {
+            font-size: 2.5rem;
+            line-height: 4rem;
+        }
     }
 
     .media{
         margin-bottom: 230px;
 
         @media (max-width: 768px) {margin-bottom: 150px;}
+        @media (max-width: 685px) {margin-bottom: 100px;}
+            
     }
 
     .social {
